@@ -1,7 +1,5 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Header from './Header/Header'
-import Footer from './Footer/Footer'
 import ContactPage from './ContactPage/ContactPage'
  
 
