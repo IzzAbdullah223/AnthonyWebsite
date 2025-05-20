@@ -1,0 +1,14 @@
+# Don't count index.html in language stats
+index.html linguist-detectable=false
+
+# Don't count JavaScript config files
+vite.config.ts linguist-language=TypeScript
+vite.config.js linguist-detectable=false
+eslint.config.js linguist-detectable=false
+
+# Ignore JSON config files (optional)
+package.json linguist-detectable=false
+package-lock.json linguist-detectable=false
+tsconfig.json linguist-detectable=false
+tsconfig.app.json linguist-detectable=false
+tsconfig.node.json linguist-detectable=false
