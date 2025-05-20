@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100PX;
+}
+
+.Container h1{
+    font-size: 5rem;
+}
+ 
+.LeftSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ 
+
+.Description{
+    max-width: 450px;
+    font-size: 1.1rem;
+    color: rgb(128, 122, 122);
+}
+ 
+
+.IconsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.Icon{
+    margin-right: 15px;
+    font-size: 1.2rem;
+    color: rgba(36, 36, 126, 0.788);
+}
+
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 200px;
+}
+
+.RightSide input{ 
+  padding: 10px 12px;
+  border: 1px solid #cccccce7;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.TwoInputs{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.Email,.Phone,.Message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea{
+    padding: 10px 12px;
+    width: 100%;
+    height: 90px;
+    outline: none;
+}
+
+button{
+    align-self: self-start;
+    font-size: 1.6rem;
+    border: none;
+    color: white;
+    background-color: #2a6197;
+    padding: 5px 15px; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

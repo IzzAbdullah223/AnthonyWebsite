@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.LogoContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+hr{
+    background-color: rgb(230, 226, 226);
+    height: 1px;
+    border: none;
+}
+
+hr:last-child{
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    border: none;
+
+}
+
+.Services{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 1.2rem;
+    color: #243746;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.Services div{
+        transition: color 0.3s ease, transform 0.3s ease;
+        cursor: pointer;
+}
+
+.Services div:hover{
+    color: grey;
+    transform: scale(1.2);
+}
+
+.PicsContainer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.AboutPic{
+    background-image: url('/Building.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto';
+    color: white;
+    padding: 15px;
+    width: 550px;
+    height: 500px;
+    max-width: 100%;
+}
+
+.AboutPic h1{
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-top: 20px;
+  list-style-position: inside;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.BoxesContainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Roboto';
+}
+
+.LeftBox{
+    position: relative;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    width: 550px;
+    padding: 25px;
+    height: 550px;
+ 
+}
+
+.LeftBox> h3{
+    color: #666666;
+}
+
+.LeftBox p{
+    color: #233949;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #2e3b47;
+}
+
+.Name div:first-child{
+    font-size: 1.3rem;
+
+}
+
+.RightBox{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 550px;
+    padding: 25px;
+    height: 550px;
+    
+}
+
+.RightBox h3{
+color: #666666;
+margin-bottom:-20px;
+align-self: center;
+}
+
+.RightBox p{
+    max-width: 250px;
+    text-align: center;
+    align-self: center;
+}
+
+.EmailInfo label::after{
+    content: "*";
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.EmailInfo label{
+    margin-bottom: 5px;
+}
+
+.EmailInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.EmailInfo div{
+    display: flex;
+    flex-direction: column;
+}
+
+.EmailInfo input{ 
+  padding: 10px 12px;
+  border: 1px solid #cccccc3a;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+ 
+}
+
+.EmailInfo textarea{
+    padding: 10px 12px;
+    width: 100%;
+    height: 120px;
+    outline: none;
+    border: none;
+}
+
+.RightBox button{
+    align-self: center;
+    font-size: 1.6rem;
+    border: none;
+    color: white;
+    background-color: #243444;
+    padding: 5px 15px; 
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.RightBox button:hover{
+    background-color: #666666;
+}
+
+.DotsContainer{
+    width: 170px;
+    height: 35px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.Dot {
+    width: 10px;
+    height: 8px;
+    background-color: rgba(170, 168, 168, 0.26);
+    border-radius: 5px;
+    transform: scale(1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.ActiveDot {
+    background-color: #323636;
+    transform: scale(1.1);
+}

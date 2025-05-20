@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.HeaderContainer{
+    background-color: #e9e9eb;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.HeaderContainer h2{
+    max-width: 940px;
+    line-height: 1.4;
+    padding: 40px 40px 55px 40px;
+    text-align: center;
+    color:#3c3f4d;
+     
+    
+}

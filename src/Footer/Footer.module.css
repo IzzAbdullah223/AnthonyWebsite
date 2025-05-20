@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.Container{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Roboto';
+  color: #243746;
+gap: 20px;
+padding: 15px;
+}
+
+.Top{
+   display: flex;
+   gap: 40px;
+   font-weight: bold;
+   
+}
+
+.Top div:first-child{
+    margin-right: 50px;
+}
