@@ -10,7 +10,7 @@ function Footer(){
                 <div>(123) 456-789</div>
                 <div>111 S.WHATEVER AVE. SUITE LOS ANGELES, C 00000</div>
             </div>
-            <div>MADE BY NIGGA.LLC</div>
+            <div>MADE BY WHATEVER.LLC</div>
         </div>
     )
 

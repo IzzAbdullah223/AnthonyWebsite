@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    font-family: 'Roboto';
+}
+
+.About{
+    margin-top: 100px;
+}
+
+.About,.Services{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.About p{
+    max-width: 400px;
+}
+

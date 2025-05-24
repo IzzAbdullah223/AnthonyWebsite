@@ -41,12 +41,14 @@ hr:last-child{
     font-weight: bold;
 }
 
-.Services div{
+.Services a{
         transition: color 0.3s ease, transform 0.3s ease;
         cursor: pointer;
+        text-decoration: none;
+        color: inherit;
 }
 
-.Services div:hover{
+.Services a:hover{
     color: grey;
     transform: scale(1.2);
 }

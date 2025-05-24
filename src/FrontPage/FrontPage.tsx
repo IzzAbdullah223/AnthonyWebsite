@@ -1,15 +1,19 @@
 import FrontPageCSS from './FrontPage.module.css'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 
 function FrontPage(){
 
     return(<div className={FrontPageCSS.Container}>
+        <Header></Header>
         <div className={FrontPageCSS.LogoContainer}>
             <h1>LOGO PLACEHOLDER</h1>
         </div>
         <hr></hr>
         <div className={FrontPageCSS.Services}>
-            <div>About us</div>
-            <div>Contact</div>
+            <Link to="/About">About us</Link>
+            <Link to="/contact">Contact</Link>
         </div>
         <div className={FrontPageCSS.PicsContainer}>
             <div className={FrontPageCSS.AboutPic}>
@@ -47,28 +51,9 @@ function FrontPage(){
                         <div className={FrontPageCSS.Dot}></div>
                 </div>
             </div>
-            <div className={FrontPageCSS.RightBox}>
-                <h3>Contact us</h3>
-                <p>If you’re interested in our services,
-                   we would like to talk to you.</p>
-                <div className={FrontPageCSS.EmailInfo}>
-                    <div>
-                        <label>Name</label>
-                        <input type='text' placeholder='Full Name'></input>
-                    </div>
-                    <div>
-                        <label>Email</label>
-                        <input type='email' placeholder='Email Address'></input>
-                    </div>
-                    <div>
-                        <label>Your Message</label>
-                        <textarea placeholder='Your message'></textarea>
-                    </div>
-                </div>
-                <button>Submit</button>
-            </div>
         </div>
         <hr></hr>
+        <Footer></Footer>
     </div>)
 }
 
