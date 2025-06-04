@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 function FrontPage(){
 
     return(<div className={FrontPageCSS.Container}>
-        <Header></Header>
         <div className={FrontPageCSS.LogoContainer}>
             <h1>LOGO PLACEHOLDER</h1>
         </div>
@@ -53,7 +52,6 @@ function FrontPage(){
             </div>
         </div>
         <hr></hr>
-        <Footer></Footer>
     </div>)
 }
 
